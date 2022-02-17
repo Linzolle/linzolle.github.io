@@ -13,7 +13,6 @@ function spook() {
     mainBox.style.opacity = 0;
 
     skeleton = document.getElementById("skeleton");
-    skeleton.style.display = "block";
     skeleton.style.transform = "translate(-50%,-50%)";
     skeleton.style.opacity = 1;
 }
