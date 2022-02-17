@@ -118,4 +118,8 @@ a:hover {
     #main-box-links a {
         margin: auto;
     }
+
+    #skeleton {
+        width:90%;
+    }
 }
