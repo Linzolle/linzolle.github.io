@@ -15,6 +15,18 @@ function spook() {
     skeleton = document.getElementById("skeleton");
     skeleton.style.transform = "translate(-50%,-50%)";
     skeleton.style.opacity = 1;
+    skeleton.style.zIndex = 1;
+}
+
+function unspook() {
+    mainBox = document.getElementById("main-box");
+    mainBox.style.transform = "translate(-50%,-50%)";
+    mainBox.style.opacity = 1;
+
+    skeleton = document.getElementById("skeleton");
+    skeleton.style.transform = "translate(-25%,-50%)";
+    skeleton.style.opacity = 0;
+    skeleton.style.zIndex = -1;
 }
 
 // change the age span to whatever it should be
