@@ -92,7 +92,7 @@ a:hover {
     }
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:1404px) {
     #main-box {
         width: 90%;
         height: 75%;
